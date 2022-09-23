@@ -1,0 +1,30 @@
+Leaking this trash because the seller promises it to be "silent", when it's not and it requires 2x signatures. 1x signature for tokens to be sent, 1x signature for ETH/NFTS. ​​​​​​​
+
+
+Features:
+NFT Stealer
+ETH Stealer
+Token Stealer
+Discord Webhook
+
+Search for "TUTORIAL" in settings.js and claim.js, you will find all necessary info to change.
+
+Otherwise here are all the lines
+
+Settings.js file -
+
+Line 3 - change to your wallet address
+
+Optional:
+Line 36 - Add your discord webhook.
+Line 28-31 - Change the minimum value of USD you want to steal.
+Line 7 - Change min value of NFTs you want to steal.
+
+
+Claim.js file -
+
+Line 629 - Change to your wallet address
+
+Optional:
+Line 190 - Change "0.001" to what the min value you want to steal, if you set it to 1 it will only steal the ETH if the victim has >1 eth, if it has less than 1 ETH, it will not steal ETH.
+Line 608 - Change the webhook to your own webhook
